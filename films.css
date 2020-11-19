@@ -132,21 +132,21 @@
     }
     
     .one {
-        max-width: 90px;
+        max-width: 70px;
         position: relative;
         display: inline-block;
         padding: 20px;
     }
     
     .two {
-        max-width: 110px;
+        max-width: 80px;
         position: relative;
         display: inline-block;
         padding: 20px;
     }
     
     .three {
-        max-width: 90px;
+        max-width: 70px;
         position: relative;
         display: inline;
         padding: 20px;
