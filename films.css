@@ -1,0 +1,189 @@
+@media screen and (min-width: 1000px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+        background:#fff2d1;
+        background-image:url(./images/TRV900-transparent.svg);
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: flex-start;
+        justify-items: center;
+    }
+    
+    .nav {
+        grid-column-start: 1;
+        position: sticky;
+        width: 60%;
+        top: 120px;
+        left: 10%;
+        display: block;
+        text-align: center;
+    }
+
+    .skin-nav {
+        max-width: 200px;
+        position: relative;
+        padding: 18px;
+        display: inline-block;
+    }
+    
+    .one {
+        max-width: 140px;
+        position: relative;
+        display: inline-block;
+        padding: 18px;
+    }
+    
+    .two {
+        max-width: 150px;
+        position: relative;
+        display: inline-block;
+        padding: 18px;
+    }
+    
+    .three {
+        max-width: 140px;
+        position: relative;
+        display: inline-block;
+        padding: 18px;
+    }
+
+    .films {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+    p2 {
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1.5rem;
+    }
+    
+    .desc {
+        padding-bottom: 30px;
+        display: block;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #desc-3 {
+        padding-bottom: 75px;
+    }
+    
+    b {
+        line-height: 28px;
+    }
+    
+    iframe {
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    
+    .link {
+        text-align: center;
+    }
+    
+}
+    
+@media screen and (max-width: 1000px) {
+        
+    body {
+        margin: 0;
+        padding: 0;
+        background: #fff4d9;
+        background-image:url(./images/TRV900-transparent.svg);
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: bottom;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-rows: 280px 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .nav {
+        grid-row-start: 1;
+        width: 100%;
+        top: 15%;
+        display: block;
+        text-align: center;
+    }
+
+    .skin-nav {
+        max-width: 160px;
+        position: relative;
+        display: block;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    .one {
+        max-width: 90px;
+        position: relative;
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    .two {
+        max-width: 110px;
+        position: relative;
+        display: inline-block;
+        padding: 20px;
+    }
+    
+    .three {
+        max-width: 90px;
+        position: relative;
+        display: inline;
+        padding: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+   
+    .films {
+        grid-row-start: 2;
+        text-align: center;
+    }
+    
+    p2 {
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1.3rem;
+    }
+    
+    .desc {
+        padding-bottom: 50px;
+        display: block;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #desc-3 {
+        padding-bottom: 75px;
+    }
+    
+    b {
+        line-height: 28px;
+    }
+    
+    iframe {
+        padding-bottom: 30px;
+        width: 85%;
+        height: auto;
+    }
+}

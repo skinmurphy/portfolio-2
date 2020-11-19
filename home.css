@@ -1,0 +1,135 @@
+@media screen and (min-width: 700px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background:#fff2d1;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 125px 75px 6fr 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .skin-nav {
+        display: none;
+    }
+
+    .nav {
+        grid-row-start: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.95rem;
+        padding-bottom: 30px;
+    }
+    
+    .one {
+        left: 25%;
+        max-width: 80px;
+        position: absolute;
+    }
+    
+    .two {
+        margin-left: -40px;
+        max-width: 80px;
+        position: absolute;
+    }
+    
+    .three {
+        right: 25%;
+        max-width: 80px;
+        position: absolute;
+    }
+    
+    .home-image {
+        grid-row-start: 3;
+    }
+    
+    .desktop-home {
+        width: 65%;
+        position: absolute;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    
+    .mobile-home {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: #fff2d1;
+    }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 75px 6fr 50px;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .header {
+        grid-row-start: 1;
+    }
+
+    .nav {
+        grid-row-start: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding-bottom: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .skin-nav {
+        left: 50%;
+        top: 8%;
+        margin-left: -87.5px;
+        max-width: 200px;
+        position: absolute;
+    }
+    
+    .one {
+        left: 10%;
+        max-width: 80px;
+        position: absolute;
+    }
+    
+    .two {
+        margin-left: -40px;
+        max-width: 80px;
+        position: absolute;
+    }
+    
+    .three {
+        right: 10%;
+        max-width: 80px;
+        position: absolute;
+    }
+    
+    .mobile-home {
+        width: 65%;
+        position: absolute;
+        right:0;
+        margin:auto;
+    }
+
+    .desktop-home {
+        display: none;
+    }
+
+}
