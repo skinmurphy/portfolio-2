@@ -84,6 +84,10 @@
     .mobile-subheading {
         display: none;
     }
+    
+    .back-button {
+        display: none;
+    }
 }
     
 @media screen and (max-width: 1000px) {
