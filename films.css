@@ -34,39 +34,29 @@
         padding: 18px;
         display: inline-block;
     }
-    
-    .one {
-        max-width: 140px;
-        position: relative;
-        display: inline-block;
-        padding: 18px;
-    }
-    
-    .two {
-        max-width: 150px;
-        position: relative;
-        display: inline-block;
-        padding: 18px;
-    }
-    
-    .three {
-        max-width: 140px;
-        position: relative;
-        display: inline-block;
-        padding: 18px;
-    }
 
     .films {
         text-align: center;
     }
+    
+    p2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5rem;
+    }
 
     a {
         text-decoration: none;
-    }
-    
-    p2 {
-        font-family: 'Patrick Hand', cursive;
-        font-size: 1.5rem;
+        color: black;
     }
     
     .desc {
@@ -131,39 +121,29 @@
         padding-bottom: 20px;
     }
     
-    .one {
-        max-width: 70px;
-        position: relative;
-        display: inline-block;
-        padding: 20px;
+    p2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 0.9rem;
     }
-    
-    .two {
-        max-width: 80px;
-        position: relative;
-        display: inline-block;
-        padding: 20px;
+
+    h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.8rem;
     }
-    
-    .three {
-        max-width: 70px;
-        position: relative;
-        display: inline;
-        padding: 20px;
+
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5rem;
     }
 
     a {
         text-decoration: none;
+        color: black;
     }
    
     .films {
         grid-row-start: 2;
         text-align: center;
-    }
-    
-    p2 {
-        font-family: 'Patrick Hand', cursive;
-        font-size: 1.3rem;
     }
     
     .desc {
