@@ -29,31 +29,20 @@
         padding: 18px;
         display: inline-block;
     }
-    
-    .one {
-        max-width: 140px;
-        position: relative;
-        display: inline-block;
-        padding: 18px;
-    }
-    
-    .two {
-        max-width: 140px;
-        position: relative;
-        display: inline-block;
-        padding: 18px;
-    }
-    
-    .three {
-        max-width: 140px;
-        position: relative;
-        display: inline-block;
-        padding: 18px;
-    }
 
     p {
-        font-family: 'Patrick Hand', cursive;
-        font-size: 1.3rem;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5rem;
     }
 
     a {
@@ -121,25 +110,24 @@
         padding-bottom: 20px;
     }
     
-    .one {
-        max-width: 70px;
-        position: relative;
-        display: inline-block;
-        padding: 20px;
+    p {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 0.9rem;
     }
-    
-    .two {
-        max-width: 80px;
-        position: relative;
-        display: inline-block;
-        padding: 20px;
+
+    h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.8rem;
     }
-    
-    .three {
-        max-width: 70px;
-        position: relative;
-        display: inline-block;
-        padding: 20px;
+
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 
     .desktop-subheading {
@@ -162,16 +150,11 @@
     }
 
     p {
-        font-family: 'Patrick Hand', cursive;
+        font-family: 'Roboto Mono', monospace;
         font-size: 1.3rem;
         border: 2px dashed #24521d;
         padding: 10px;
         background-color: #fffaeb;
-    }
-
-    a {
-        text-decoration: none;
-        color: #24521d;
     }
     
     a:hover {
